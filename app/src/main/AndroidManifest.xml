@@ -16,7 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".ChiefPage" />
-        <activity android:name=".UserProfile"></activity>
+        <activity android:name=".UserProfile" />
+        <activity android:name=".Login"></activity>
     </application>
 
 </manifest>
