@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Second extends AppCompatActivity {
+public class ChiefPage extends AppCompatActivity {
     Button btnBack;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,7 +16,7 @@ public class Second extends AppCompatActivity {
         btnBack.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(Second.this, Home.class);
+                Intent i = new Intent(ChiefPage.this, Home.class);
                 startActivity(i);
             }
         });
